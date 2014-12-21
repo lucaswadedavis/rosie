@@ -248,7 +248,7 @@ view={
 	view.look(rightIris,leftIris);
 
 	$("body").click(function(e){
-		model.paper.circle(e.pageX,e.pageY,20).attr({fill:"white"});
+		//model.paper.circle(e.pageX,e.pageY,20).attr({fill:"white"});
 		view.lookHere(rightIris,leftIris,e.pageX,e.pageY);
 		});
 
